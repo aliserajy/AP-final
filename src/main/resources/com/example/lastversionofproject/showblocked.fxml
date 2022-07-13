@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lastversionofproject.showblockedcontroller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true">
+         <image>
+            <Image url="@light-blue-background-hd-online-download.jpg" />
+         </image>
+      </ImageView>
+      <ScrollPane layoutX="189.0" layoutY="26.0" prefHeight="267.0" prefWidth="222.0">
+         <content>
+            <VBox fx:id="vbox" prefHeight="267.0" prefWidth="221.0" />
+         </content>
+      </ScrollPane>
+      <Button fx:id="backbutton" layoutX="280.0" layoutY="347.0" mnemonicParsing="false" onAction="#goback" text="Back" />
+   </children>
+</AnchorPane>
